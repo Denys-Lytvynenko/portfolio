@@ -3039,7 +3039,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 270px;
+    width: 125px;
 }
 .contacts__list-item {
     list-style: none;
@@ -3059,9 +3059,6 @@ section {
 }
 .contacts__link-github::before {
     content: "\eab0";
-}
-.contacts__link-facebook::before {
-    content: "\ea90";
 }
 .contacts__contact-me {
     font-family: "Gilroy-Light";
