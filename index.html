@@ -197,20 +197,25 @@
 
 				<a href="#form" class="button contacts__btn wow bounceIn">Send message</a>
 
-				<form name="contact-form" accept-charset="utf-8"
-					action="https://formspree.io/denys.m.lytvynenko@gmail.com" method="post" id="form"
-					class="form white-popup-block mfp-hide">
+				<form name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdojrplz" method="post"
+					id="form" class="form white-popup-block mfp-hide">
+
 					<label for="full-name" class="form__label">Full Name</label>
 					<input type="text" name="name" id="full-name" class="form__field" placeholder="First and Last"
-						required="">
+						required>
+
 					<label for="email-address" class="form__label">Email Address</label>
-					<input type="email" name="_replyto" id="email-address" class="form__field"
-						placeholder="example@email.com" required="">
+					<input type="email" name="email" id="email-address" class="form__field"
+						placeholder="example@email.com" required>
+
 					<label for="message" class="form__label">Message</label>
 					<textarea rows="5" name="message" id="message" class="form__message" placeholder="Your message..."
-						required=""></textarea>
+						required></textarea>
+
 					<input type="hidden" name="_subject" id="email-subject" value="Portfolio form">
+
 					<input type="text" name="_gotcha" style="display: none;">
+
 					<input type="submit" class="button form__submit" value="Send message">
 				</form>
 
